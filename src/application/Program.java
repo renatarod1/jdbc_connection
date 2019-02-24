@@ -47,7 +47,7 @@ public class Program {
 			}
 			*/
 			
-			System.out.println("Vendedores cadastrados na Tabela seller:");
+			System.out.println("Vendedores:");
 			System.out.println("Id, Nome, Email, Salario Base");
 			while (resultSet.next()) {
 				System.out.println(resultSet.getInt("Id") +
